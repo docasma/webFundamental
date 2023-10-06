@@ -1,8 +1,9 @@
 *{
     font-family: cursive;
+    color: antiquewhite;
 }
 .nav{
-background-color: black;
+background-color: rgb(56, 54, 54);
 width: 1000px;
 height: 100px;
 padding: 10px;
@@ -13,10 +14,19 @@ justify-content: space-between;
 }
 .nav-title{
     text-align: right;
-    color:white ;
 }
 .nav-links{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+    width:500px  
+}
+.btn{
+    background-color: rgb(130, 179, 247);
+    border: solid black;
+    color: aliceblue;
+    width: 100px;
+    height: 40;
+    box-shadow: 0px 10px 10px 0px black ;
 }
