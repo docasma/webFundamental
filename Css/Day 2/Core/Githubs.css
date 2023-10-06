@@ -1,0 +1,41 @@
+*{font-family: serif;
+}
+.container{
+    width: 800;
+    padding: 20px;
+    border-top:black solid;
+    background-color:rgb(195, 190, 190);
+    margin: auto;
+    display: block;
+}
+h2{
+   text-align:center ;
+    margin-bottom: 20px;
+}
+.picture{
+    height: 200px;
+}
+.blue{
+    background-color: rgb(100, 219, 227);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.pink{
+    background-color: rgb(242, 172, 236);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.white{
+ background-color: aliceblue;  
+ padding: 10px;
+ margin: 10px;
+ display: flex; 
+ justify-content: space-around;
+}
+p{
+text-align: center;
+}

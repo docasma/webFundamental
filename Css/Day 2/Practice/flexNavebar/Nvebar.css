@@ -1,0 +1,22 @@
+*{
+    font-family: cursive;
+}
+.nav{
+background-color: black;
+width: 1000px;
+height: 100px;
+padding: 10px;
+margin: 0 auto;
+border: black solid;
+display: flex;
+justify-content: space-between;
+}
+.nav-title{
+    text-align: right;
+    color:white ;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
