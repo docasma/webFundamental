@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: cursive;
+    /* font-size: large; */
+}
+.nav{
+    height:60px ;
+    width: 1330px;
+    background-color: rgb(240, 235, 231);
+    margin-left:  100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.b_search{
+   height:20px;
+   width: 500px; 
+   text-align:left;
+}
+.b_login{
+    background-color: blue;
+    width: 70px;
+    height:30px ;
+    box-shadow: 5px 5px 5px black;
+}
+.container{
+    height: 600px;
+    width: 1330px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:300px;
+    padding-right: 100px;   
+}
+.ninja1{
+   height: 200px;
+   width:450px ;
+   padding: 20px;
+   border:solid ;
+   margin: 20px;
+   display: flex;
+
+}
+.nj1-1{
+    flex-direction: column;
+   display: flex;
+   justify-content: space-evenly;
+}
+.nj1-2{
+    height: 100px;
+    width: 220px;
+    margin-top :  80px;
+    margin-left:100px;
+}
+.b_like{
+    height: 30;
+    width: 100px;
+    border: solid;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(176, 134, 18);
+}
+.ninja2{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+    border: solid;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.defbox{
+    height: 100px;
+    width: 200px;
+}
+.b_def{
+    background-color: rgb(94, 145, 5);
+    box-shadow: 5px 5px 5px black;
+    height: 30px;
+    width:200px ;
+}
+
